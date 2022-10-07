@@ -33,7 +33,7 @@ a {
   color: var(--white);
 }
 
-a.href:hover {
+a:hover {
   font-weight: bold;
   color: var(--wool);
 }
@@ -61,7 +61,7 @@ picture img {
   box-sizing: border-box;
 }
 
-.button {
+a.button {
   color: var(--white);
   font-size: 14px;
   font-weight: bold;
@@ -72,7 +72,7 @@ picture img {
   display: inline-block;
 }
 
-.button:hover {
+a.button:hover {
   background-color: var(--red);
   cursor: pointer;
 }
