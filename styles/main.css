@@ -33,7 +33,7 @@ a {
   color: var(--white);
 }
 
-a:hover {
+a.href:hover {
   font-weight: bold;
   color: var(--wool);
 }
