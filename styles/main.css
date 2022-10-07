@@ -1,0 +1,98 @@
+:root {
+  --white: #f6f6f6;
+  --wool: #e8e8e8;
+  --grey: #333;
+  --red: #b90504;
+  --dark-red: #990100;
+  --header: #111
+  background-color: #f6f6f6;
+  font-family: "DM Sans", sans-serif;
+  color: var(--grey);
+}
+
+header {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+main {
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  font-weight: bold;
+  color: var(--wool);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+  line-height: 1.1;
+  color: var(--header);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+}
+
+picture img {
+  max-width: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  border-radius: 1000px;
+  transition: background-color 300ms ease;
+  background-color: var(--dark-red);
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--red);
+  cursor: pointer;
+}
+.container {
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+svg {
+  width: 200px;
+}
+
+/* temp fix to size about img */
+img[srcset] {
+  width: 50%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+/* temporary fix to size svg images */
+img[src$="svg"] {
+  width: 200px;
+}
