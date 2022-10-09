@@ -33,7 +33,7 @@ a {
   color: var(--white);
 }
 
-a:hover {
+a[href]:hover {
   font-weight: bold;
   color: var(--wool);
 }
@@ -97,4 +97,8 @@ img[srcset] {
 /* temporary fix to size svg images */
 img[src$="svg"] {
   width: 200px;
+}
+
+nav ul {
+  margin: 0;
 }
