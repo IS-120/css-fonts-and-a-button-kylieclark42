@@ -72,7 +72,7 @@ a.button {
   display: inline-block;
 }
 
-a.button:hover {
+a.button[href]:hover {
   background-color: var(--red);
   cursor: pointer;
 }
